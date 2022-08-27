@@ -78,3 +78,8 @@ select {
 		scroll-behavior: auto !important;
 	}
 }
+
+#product{
+	height: 200px;
+	width: 200px;
+}
