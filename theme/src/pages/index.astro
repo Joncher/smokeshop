@@ -6,10 +6,11 @@ import {
 	ThreeColumnTextSection,
 	YouTubeEmbedSection,
   StickyTextImageSection,
-  CtaCardSection
+  CtaCardSection,
 } from '@odyssey-theme/components';
 import Layout from '../layouts/Page.astro';
 import TextAndImageHero from '../components/sections/heros/TextAndImageHero.astro';
+import TwoColumnTextSection from '../components/sections/heros/TwoColumnTextSection.astro';
 
 const seo = {
 	title: 'Landing Page #1 | Astro Odyssey Theme',
@@ -52,7 +53,7 @@ const seo = {
 		</div>
 	</ThreeColumnTextSection>
 
-	<ThreeColumnTextSection>
+	<TwoColumnTextSection>
 		<div slot="column-1-body">
 			<h2>Papers</h2>
 			<img class="product" src="../public/assets/images/landing-1/papers.jpg"/>
@@ -61,7 +62,7 @@ const seo = {
 			<h2>Trays</h2>
 			<img class="product" src="../public/assets/images/landing-1/trays.jpg"/>
 		</div>
-	</ThreeColumnTextSection>
+	</TwoColumnTextSection>
 
   <StickyTextImageSection>
     <div slot="text-container">
