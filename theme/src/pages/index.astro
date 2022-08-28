@@ -12,10 +12,12 @@ import Layout from '../layouts/Page.astro';
 import TextAndImageHero from '../components/sections/heros/TextAndImageHero.astro';
 import TwoColumnTextSection from '../components/sections/heros/TwoColumnTextSection.astro';
 
+
 const seo = {
 	title: 'Landing Page #1 | Astro Odyssey Theme',
 	description: 'Landing Page #1 | Astro Odyssey Theme',
 };
+	  
 ---
 
 <Layout seo={seo} >
@@ -64,6 +66,38 @@ const seo = {
 		</div>
 	</TwoColumnTextSection>
 
-	
+	<CustomerQuoteSection
+		quoteText="One stop shop, They always have everything I need and the best prices compared to other shops. Positive guys that work there to help you find what you need."
+		customerName="Rey G."
+	/>
+
+	<TwoColumnTextSection>
+		
+		<div slot="column-1-body">
+			<a href="https://g.page/woodhaven-smoke-shop?share" target="_blank"> 	
+				<h2>Location</h2>
+				<img src="../public/assets/images/landing-1/map.jpg"/>
+				<div>Address: 60-70 Woodhaven Blvd, Queens, NY 11373</div>
+			</a>
+		</div>
+
+		<div slot="column-2-body">
+			<h2>Hours</h2>
+			<div>Monday 12PM(Noon) - 12 AM(Midnight)</div>
+			<br/>
+			<div>Tuesday 12PM(Noon) - 12 AM(Midnight)</div>
+			<br/>
+			<div>Wednesday 12PM(Noon) - 12 AM(Midnight)</div>
+			<br/>
+			<div>Thursday 12PM(Noon) - 12 AM(Midnight)</div>
+			<br/>
+			<div>Friday 12PM(Noon) - 12 AM(Midnight)</div>
+			<br/>
+			<div>Saturday 12PM(Noon) - 12 AM(Midnight)</div>
+			<br/>
+			<div>Sunday 12PM(Noon) - 12 AM(Midnight)</div>
+		</div>
+	</TwoColumnTextSection>
+	 
 </Layout>
 
