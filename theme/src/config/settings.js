@@ -1,6 +1,6 @@
 export default {
-	title: `Odyssey Astro Theme | A Marketing Website Theme for Startups and Businesses`,
-	description: `A simple, clean, and modern theme for a startup or businesses' marketing website.`,
+	title: `Woodhaven Smoke Shop`,
+	description: `Best Smoke Shop in NYC`,
 	url: `https://odyssey-theme.littlesticks.dev`, // No trailing slash!
 	name: `Woodhaven Smoke Shop`, // The short name of the business or brand name. Used for things like the copyright in the footer.
   enableThemeSwitcher: true,
